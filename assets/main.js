@@ -19,6 +19,10 @@ head.appendChild(hotjar)
 var google = document.createElement('script')
 google.setAttribute('async','')
 google.setAttribute('src','https://www.googletagmanager.com/gtag/js?id=G-490CDYV0P3')
+head.appendChild(google)
+
+google = document.createElement('script')
+google.setAttribute('async','')
 google.innerText = "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-490CDYV0P3');"
 head.appendChild(google)
 
