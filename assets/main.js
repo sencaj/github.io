@@ -16,14 +16,14 @@ hotjar.innerText = "(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q|
 head.appendChild(hotjar)
 
 // google
-var google = document.createElement('script')
-google.setAttribute('async','')
-google.setAttribute('src','https://www.googletagmanager.com/gtag/js?id=G-490CDYV0P3')
-head.appendChild(google)
+//var google = document.createElement('script')
+//google.setAttribute('async','')
+//google.setAttribute('src','https://www.googletagmanager.com/gtag/js?id=G-490CDYV0P3')
+//head.appendChild(google)
 
-google = document.createElement('script')
-google.innerText = "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-490CDYV0P3');"
-head.appendChild(google)
+//google = document.createElement('script')
+//google.innerText = "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-490CDYV0P3');"
+//head.appendChild(google)
 
 var upwork = document.createElement('script')
 upwork.setAttribute('type','text/javascript')
